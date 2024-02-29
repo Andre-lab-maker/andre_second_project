@@ -1,0 +1,210 @@
+body{
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+.meu_carrossel{
+    top: 0;
+    width: 100%;
+    
+}
+h1{
+    z-index: 10;
+    font-family: "ibmplexsans-bold";
+    color: rgb(77, 77, 77);
+    
+    
+}
+hr{
+    z-index: 10;
+}
+.carrossel_texto{
+    top: 250px;
+    width: 435px;
+    color: rgb(77, 77, 77);
+    font-family: "ibmplexsans-light";
+    font-size: 13px;
+    
+}
+.novidade{
+    font-family: "ibmplexsans-medium";
+    font-size: 15px;
+    color: rgb(177, 126, 59);
+    text-transform: uppercase;
+
+}
+h2{
+    font-family: "ibmplexsans-light";
+    font-size: 40px;
+}
+.saber-mais{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(177, 126, 59);
+    color: white;
+    font-family: "lato-bold";
+    border: none;
+    outline: none;
+}
+.saber-mais:hover{
+    background-color: gray;
+}
+#topbar, .navmenu {
+    text-align: center;
+    font-family: "lato-black";
+    font-size: 18px;
+    text-transform: uppercase; 
+    max-width: 800px; 
+    z-index: 10;
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+.navmenu:hover, .dropdown:hover{
+    color: rgb(177, 126, 59);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+
+    
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: rgb(255, 255, 255); 
+    text-align: left;
+    list-style-type: none; 
+    width: 370px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: rgb(177, 126, 59);
+}
+.no-caret .dropdown-toggle::after {
+    display: none;
+  }
+#carouselExampleCaptions{
+    position: relative;
+    z-index: 0;
+}
+.carousel-indicators [data-bs-target] {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(77, 77, 77);
+    background-color: transparent;
+    opacity: 1;
+    margin: 10px;
+}
+.carousel-indicators .active{
+    background-color: rgb(77, 77, 77);
+}
+.carousel-indicators{
+   right: 800px;
+   top: 600px;
+   margin: 15px;
+}
+.conteudo{
+    width: 312px;
+    height: 396px;
+    z-index: 10;
+    
+}
+main{
+    z-index: 10;
+}
+.grupo_conteudo {
+    position: relative;
+    padding: 60px;
+    box-shadow: 4px 7px 10px rgb(77, 77, 77);
+    top: -45px;
+    left: 90px;
+    z-index: 10;
+    margin-bottom: 60px;
+    background-color: white;
+    
+    
+}
+.titulo_texto{
+    margin-left: 30px;
+    
+}
+.saber-mais1{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(177, 126, 59);
+    color: white;
+    font-family: "lato-bold";
+    border: none;
+    outline: none;
+    float: right;
+}
+.saber-mais1:hover{
+    background-color: gray;
+}
+.card-group{
+    margin: 60px;
+
+}
+.button_card{
+    text-align: right;
+}
+.saber-mais3{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(177, 126, 59);
+    color: white;
+    font-family: "lato-bold";
+    border: none;
+    outline: none;
+    float: left;
+    
+}
+.saber-mais3:hover{
+    background-color: gray;
+}
+.titulo_contactos{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.ralc{
+    margin-left: 50px;
+}
+.reclama_ralc{
+    margin-top: 40px;
+}
+.redes_sociais{
+    margin: auto;
+    padding: 15px;
+    
+}
+.inst, .face, .linked{
+    margin: 15px;
+}
+.inst:hover, .face:hover, .linked:hover{
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.siga-me{
+   
+    padding: 30px;
+}
+.cookies{
+    margin-top: 30px;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+}

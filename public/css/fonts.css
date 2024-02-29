@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "ibmplexsans-bold";
+    src: url(../fonts/ibmplexsans/IBMPlexSans-Bold.ttf)
+}
+@font-face {
+    font-family: "ibmplexsans-light";
+    src: url(../fonts/ibmplexsans/IBMPlexSans-Light.ttf);
+}
+@font-face {
+    font-family: "ibmplexsans-medium";
+    src: url(../fonts/ibmplexsans/IBMPlexSans-Medium.ttf);
+}
+@font-face {
+    font-family: "lato-black";
+    src: url(../fonts/lato/Lato-Black.ttf);
+}
+@font-face {
+    font-family: "lato-bold";
+    src: url(../fonts/lato/Lato-Bold.ttf);
+}
